@@ -84,6 +84,46 @@ $cartItems = $_SESSION['cart'];
                 </tr>
             <?php endforeach; ?>
 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             <tr>
                 <td colspan="3" style="text-align:right;"><strong>Total:</strong></td>
                 <td><strong>$<?php echo number_format($grandTotal, 2); ?></strong></td>

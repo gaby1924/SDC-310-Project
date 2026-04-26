@@ -9,10 +9,12 @@ SET time_zone = "+00:00";
 --
 -- Database: `shopping_cart`
 --
+CREATE DATABASE IF NOT EXISTS `shopping_cart` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `shopping_cart`;
+
 --
 -- Table structure for table `products`
 --
-
 CREATE TABLE `products` (
   `prod_ID` int(11) NOT NULL COMMENT 'PK, Auto increments',
   `prod_name` varchar(255) NOT NULL COMMENT 'product name',
@@ -28,7 +30,6 @@ CREATE TABLE `products` (
 --
 -- Indexes for table `products`
 --
-
 ALTER TABLE `products`
   ADD PRIMARY KEY (`prod_ID`);
 
@@ -39,7 +40,6 @@ ALTER TABLE `products`
 --
 -- AUTO_INCREMENT for table `products`
 --
-
 ALTER TABLE `products`
   MODIFY `prod_ID` int(11) NOT NULL AUTO_INCREMENT COMMENT 'PK, Auto increments';
 COMMIT;
