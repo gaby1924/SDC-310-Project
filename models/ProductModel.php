@@ -13,7 +13,7 @@ function getAllProducts(PDO $conn): array {
     return $stmt->fetchAll(PDO::FETCH_ASSOC);
 }
 
-function getProductByID(PDO $conn, int $id): ?array {
+function getProductById(PDO $conn, int $id): ?array {
     $sql = "SELECT prod_ID, prod_name, prod_desc, prod_price, prod_quantity 
         FROM products
         WHERE prod_ID = :id";
