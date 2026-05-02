@@ -1,6 +1,8 @@
-// Footer
-// Gaby Malaka
-// 4.26.2026
+<!--------
+Footer
+Gaby Malaka
+4.26.2026
+--------->
 
 <?php
 ?>
